@@ -24,11 +24,4 @@ app.listen(3000, () => {
   console.log('Server started on .... wait for it .... port 3000');
 });
 
-
-/*
-user.save().then((doc) => {
-  console.log(JSON.stringify(doc,undefined,2));
-}, (e) => {
-  console.log('Unable to save Todo',e);
-});
-*/
+module.exports = {app};
